@@ -1,5 +1,5 @@
-function vdp(id){
-    return `vehicle id :${id}`
+function vdp(id) {
+  return `http://localhost:5173/vdp/${id}`;
 }
 
-module.exports = vdp
+module.exports = vdp;
